@@ -80,14 +80,12 @@
     background-image: url(./Images/images\ \(12\).jpg);
     overlay: yellow;
     margin: 0;
-    padding-top: 50px;
-    padding-left: 150px;
-    min-height: 100vh;
+  padding: 50px;
     font-family: Poppins;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    
 }
 
 
@@ -373,6 +371,23 @@
     justify-content: center;
 }
 
+.osiso {
+    background-color: purple;
+    padding: 70px;
+    margin: 0px;
+    font-family: Poppins;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.osiso li {
+    list-style-type: none;
+}
+
+
+
 @media(max-width: 768px) {
     .Admission {
         display: block;
@@ -490,6 +505,9 @@
 
     }
 
+    .osiso {
+        display: block;
+    }
 
     .Ted-ed {
         width: 90%;
