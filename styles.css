@@ -78,7 +78,7 @@
 
 .Learner-section {
     background-image: url(./Images/images\ \(12\).jpg);
-   overlay: yellow;
+    overlay: yellow;
     margin: 0;
     padding-top: 50px;
     padding-left: 150px;
@@ -374,10 +374,20 @@
 }
 
 @media(max-width: 768px) {
- .navbar {
-   background-color: white;
+    .Admission {
+        display: block;
+        margin: 20px;
+    }
 
- }
+    .Schedule {
+        display: block;
+        margin: 20px;
+    }
+
+    .navbar {
+        background-color: white;
+
+    }
 
     .menu-icon {
         display: flex;
@@ -551,13 +561,15 @@
     }
 
     main {
-  
+
         overflow: hidden;
     }
 
     .navbar {
         display: grid;
     }
+
+
 
 
 }
