@@ -1,0 +1,563 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Onest:wght@100..900&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* NAVBAR */
+.navbar {
+    width: 100%;
+    height: 70px;
+    padding: 0px 15px;
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+    background: black;
+    position: relative;
+    z-index: 1000;
+}
+
+.logo {
+
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* DESKTOP MENU */
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+}
+
+.nav-links a {
+
+    text-decoration: none;
+    font-size: 16px;
+    transition: opacity 0.3s ease;
+}
+
+.nav-links a:hover {
+    opacity: 0.7;
+}
+
+/* HIDE CHECKBOX */
+#menu-toggle {
+    display: none;
+}
+
+/* HAMBURGER */
+.menu-icon {
+    display: none;
+    width: 30px;
+    height: 24px;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.menu-icon span {
+    display: block;
+    width: 100%;
+    height: 3px;
+    background: black;
+    border-radius: 10px;
+    transition: 0.3s ease;
+}
+
+
+.brain-ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    font-family: Poppins;
+
+}
+
+.brain-nav ul:first-child {
+    margin-right: auto;
+}
+
+.Learner-section {
+    background-image: url(./Images/images\ \(12\).jpg);
+   overlay: yellow;
+    margin: 0;
+    padding-top: 50px;
+    padding-left: 150px;
+    min-height: 100vh;
+    font-family: Poppins;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+
+
+.Learner-div h1 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.Admission {
+    background-color: Purple;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+}
+
+.Schedule {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    padding-right: 10px;
+    margin-left: 20px;
+}
+
+.img {
+    border-radius: 20px;
+    margin-top: 80px;
+    margin-left: 100px;
+}
+
+.different-div {
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+}
+
+.differnt-text-div {
+    font-family: Poppins;
+    margin-top: 70px;
+    margin-right: 80px;
+    font-size: 15.7px;
+}
+
+.Schedules {
+    background-color: lightgrey;
+    color: black;
+    box-shadow: 100px;
+    text-decoration: none;
+    padding: 15px;
+    padding-right: 10px;
+    margin-left: 20px;
+}
+
+.Priority {
+    text-align: center;
+}
+
+.Priority-section {
+    background-color: black;
+    font-family: Poppins;
+    padding-bottom: 60px;
+    color: white;
+}
+
+
+.Focus {
+    border-radius: 700px;
+    width: 10%;
+}
+
+.world {
+    width: 10%;
+}
+
+.continuos {
+    width: 10%;
+}
+
+.Fundament {
+    width: 20%;
+    border: 1px solid white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.Fundament:hover {
+    background-color: darkmagenta;
+}
+
+.improvement {
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+}
+
+.Innovate {
+    text-align: center;
+    font-family: Poppins;
+}
+
+.Ted-ed {
+    background-color: darkmagenta;
+    font-family: Poppins;
+    border-radius: 20px;
+    width: 25%;
+    text-align: center;
+    padding: 15px;
+    color: white;
+
+}
+
+.girl {
+    border-radius: 20px;
+
+}
+
+.Mored {
+    padding: 10px;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+
+}
+
+.Mored:hover {
+    padding: 10px;
+    background-color: black;
+    text-decoration: none;
+    color: white;
+
+}
+
+.robot {
+    background-color: lightgrey;
+    font-family: Poppins;
+    border-radius: 20px;
+    width: 25%;
+    padding: 15px;
+    color: black;
+    text-align: center;
+}
+
+.More {
+    padding: 10px;
+    background-color: purple;
+    text-decoration: none;
+    color: white;
+
+}
+
+.More:hover {
+    padding: 10px;
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    width: 50px;
+
+}
+
+.spect {
+    font-family: Poppins;
+    display: flex;
+    margin: auto;
+    gap: 20px;
+    width: 70%;
+}
+
+.tailored {
+    text-align: center;
+    font-family: Poppins;
+}
+
+.Journey {
+    font-family: Poppins;
+}
+
+.Pre-school {
+    display: flex;
+    gap: 200px;
+    margin: auto;
+    margin-bottom: 70px;
+    width: 70%;
+}
+
+.Primary-school {
+    display: flex;
+    gap: 280px;
+    margin: auto;
+    margin-bottom: 70px;
+    width: 70%;
+}
+
+.pre-img {
+    border-radius: 15px;
+
+}
+
+.High-school {
+    display: flex;
+    gap: 280px;
+    margin: auto;
+    margin-bottom: 70px;
+    width: 70%;
+}
+
+.Butterfly-program {
+    display: flex;
+    gap: 320px;
+    margin: auto;
+    margin-bottom: 70px;
+    width: 70%;
+}
+
+.fot {
+    font-family: Poppins;
+    background-color: black;
+    color: white;
+
+
+
+}
+
+.footer-div {
+    display: flex;
+    gap: 20px;
+    width: 70%;
+    margin: auto;
+    border-bottom: 1px white solid;
+}
+
+.footer-div li {
+    list-style-type: none;
+
+
+}
+
+.navbar {
+    display: none;
+}
+
+.last {
+    text-align: center;
+}
+
+.membership {
+    text-align: center;
+    font-family: Poppins;
+}
+
+
+
+.Affiliations {
+    background-color: lightgrey;
+    font-family: Poppins;
+    padding: 50px;
+}
+
+.Partnerships {
+    display: flex;
+    width: 100%;
+
+
+}
+
+.padu {
+    width: 20%;
+    border: 1px solid black;
+    background-color: lightgrey;
+    border-radius: 20px;
+    border: none;
+    justify-content: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.tra {
+    display: flex;
+    gap: 20px;
+    font-family: Poppins;
+    justify-content: center;
+}
+
+@media(max-width: 768px) {
+ .navbar {
+   background-color: white;
+
+ }
+
+    .menu-icon {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: auto;
+    }
+
+    .nav-links {
+        position: absolute;
+        top: 70px;
+        left: 0;
+
+        width: 100%;
+        padding: 25px 5%;
+
+        background: white;
+
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(-10px);
+
+        transition:
+            opacity 0.3s ease,
+            transform 0.3s ease,
+            visibility 0.3s ease;
+    }
+
+    /* SHOW MENU */
+    #menu-toggle:checked~.nav-links {
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0);
+    }
+
+    /* TURN HAMBURGER INTO X */
+    #menu-toggle:checked+.menu-icon span:nth-child(1) {
+        transform: translateY(10.5px) rotate(45deg);
+    }
+
+    #menu-toggle:checked+.menu-icon span:nth-child(2) {
+        opacity: 0;
+    }
+
+    #menu-toggle:checked+.menu-icon span:nth-child(3) {
+        transform: translateY(-10.5px) rotate(-45deg);
+    }
+
+    header {
+        display: none;
+    }
+
+    .different-div {
+        flex-direction: column;
+        margin: 0px;
+    }
+
+    .differnt-text-div {
+        width: 100%;
+        margin: 0px;
+        text-align: center;
+        padding: 0px;
+    }
+
+    .img {
+        margin: 30px 0px;
+        padding: 0px;
+        width: 100%;
+    }
+
+    .Learner-section {
+        flex-direction: column-reverse;
+        padding-left: 0px;
+        text-align: center;
+    }
+
+    .a-div {
+        flex-direction: column;
+    }
+
+    .improvement {
+        flex-direction: column;
+    }
+
+
+
+    .Fundament {
+        width: 100%;
+        margin: auto;
+    }
+
+
+    .Priority-section {
+        width: 100%;
+
+    }
+
+
+    .Ted-ed {
+        width: 90%;
+        margin: auto;
+    }
+
+    .robot {
+        width: 90%;
+    }
+
+    .pre-img {
+        width: 100%;
+        margin: 0px;
+    }
+
+    .Pre-school {
+        width: 100%;
+        flex-direction: column;
+        gap: 0px;
+    }
+
+
+    .Primary-school {
+        width: 100%;
+        flex-direction: column;
+        gap: 0px;
+
+    }
+
+    .High-school {
+        width: 100%;
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .Butterfly-program {
+        width: 100%;
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .tra {
+        flex-direction: column;
+        margin-top: 30px;
+    }
+
+    .padu {
+        width: 90%;
+    }
+
+    .spect {
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .footer-div {
+        flex-direction: column;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .Preschool {
+        text-align: center;
+        margin-top: 0px;
+    }
+
+    .pre-img {
+        margin-top: 20px;
+    }
+
+    main {
+  
+        overflow: hidden;
+    }
+
+    .navbar {
+        display: grid;
+    }
+
+
+}
