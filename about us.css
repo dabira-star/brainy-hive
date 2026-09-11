@@ -19,6 +19,9 @@
     font-weight: bold;
     text-decoration: none;
 }
+.inmg {
+    width: 0% !important;
+}
 
 /* DESKTOP MENU */
 .nav-links {
@@ -175,6 +178,9 @@ body {
     .navbar {
         background-color: white;
 
+    }
+    .inmg {
+        width: 0%;
     }
 
     .menu-icon {
