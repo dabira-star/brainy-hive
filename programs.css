@@ -62,12 +62,13 @@
     border-radius: 10px;
     transition: 0.3s ease;
 }
+
 .brain-ul {
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
     font-family: Poppins;
-  
+
 
 }
 
@@ -77,39 +78,80 @@
 
 .brainy-hive {
     background-color: lightgrey;
-    margin: auto;
-    padding: 10px;
-    font-family: Poppins;
-    margin-bottom: 150px;
-    width: 100%;
+   display: flex;
+   align-items: center;
+   font-family: Poppins;
+   justify-content: space-between;
+   padding: 110px;
 }
 
-.firefighters {
-    display: flex;
-    gap: 30px;
-    width: 90%;
 
 
 
-}
-
-.firefighters h1 {
-    font-size: 50px;
-}
-
-.img {
-    display: flex;
-
-    gap: 20px;
-}
-
-.imgs {
-    border-radius: 200px;
-    object-fit: cover;
-    width: 20%;
-}
 
 .spanner {
     color: orange;
     font-size: 50px;
+
+}
+
+.aripulsious {
+  display: flex;
+    justify-content: end;
+    gap: 20px;
+}
+
+.border {
+    border-radius: 1000px;
+}
+
+.real-article {
+    display: flex;
+    font-family: Poppins;
+    width: 90%;
+    margin: auto;
+    padding-top: 200px;
+}
+
+.webp {
+    border-radius: 20px;
+}
+
+.Our-programs-section {
+    background-color: lightgrey;
+    font-family: Poppins;
+}
+
+.sub-div {
+    text-align: center;
+}
+
+.Public-speaking {
+    display: flex;
+    width: 45%;
+    gap: 300px;
+    background-color: purple;
+    margin-top: 20px;
+    color: white;
+    padding: 10px;
+}
+
+.big-boss {
+    background-color: white;
+    margin: 20px;
+}
+
+.wrap {
+    display: flex;
+    gap: 20px;
+}
+
+.STEM {
+     display: flex;
+    width: 45%;
+    gap: 300px;
+    background-color: orange;
+    margin-top: 20px;
+    color: white;
+    padding: 10px;
 }
