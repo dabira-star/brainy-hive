@@ -99,6 +99,17 @@ body {
 
 
 }
+.brain-ul a {
+    text-decoration: none;
+
+    color: black;
+}
+
+.brain-ul a:hover {
+    text-decoration: none;
+    color: green;
+}
+
 
 .firefighters h1 {
     font-size: 50px;
