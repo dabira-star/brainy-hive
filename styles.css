@@ -19,11 +19,28 @@
     font-weight: bold;
     text-decoration: none;
 }
+.subsitution {
+    display: flex;
+    gap: 30px;
+    font-family: Poppins;
+}
+
+.enroll-mi-casa {
+    padding: 30px;
+    
+    background-color: orange;
+    border: none;
+    font-family: Poppins;
+
+}
+
+
 
 /* DESKTOP MENU */
 .nav-links {
     display: flex;
     background-color: purple;
+    justify-content: space-between;
     color: white;
     padding: 30px;
     align-items: center;
@@ -31,18 +48,15 @@
     list-style: none;
 }
 
-.nav-links a {
 
+.nav-links a {
     text-decoration: none;
     color: white;
     font-size: 16px;
-
     transition: opacity 0.3s ease;
 }
 
-.nav-links:last-child {
-    margin-left: 100px;
-}
+
 
 .nav-links a:hover {
     opacity: 0.7;

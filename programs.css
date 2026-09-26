@@ -78,11 +78,11 @@
 
 .brainy-hive {
     background-color: lightgrey;
-   display: flex;
-   align-items: center;
-   font-family: Poppins;
-   justify-content: space-between;
-   padding: 110px;
+    display: flex;
+    align-items: center;
+    font-family: Poppins;
+    justify-content: space-between;
+    padding: 110px;
 }
 
 
@@ -96,7 +96,7 @@
 }
 
 .aripulsious {
-  display: flex;
+    display: flex;
     justify-content: end;
     gap: 20px;
 }
@@ -128,8 +128,7 @@
 
 .Public-speaking {
     display: flex;
-    width: 45%;
-    gap: 300px;
+    gap: 20px;
     background-color: purple;
     margin-top: 20px;
     color: white;
@@ -147,9 +146,9 @@
 }
 
 .STEM {
-     display: flex;
-    width: 45%;
-    gap: 300px;
+    display: flex;
+
+    gap: 20px;
     background-color: orange;
     margin-top: 20px;
     color: white;
@@ -167,3 +166,149 @@
     color: green;
 }
 
+
+.imtired {
+    padding: 10px;
+    background-color: orange;
+    border-radius: 10px;
+    border: none;
+}
+
+.imnottired {
+    padding: 10px;
+    background-color: purple;
+    border-radius: 10px;
+    border: none;
+}
+
+
+
+.last-naruto {
+    margin-top: 100px;
+    margin-bottom: 200px;
+    background-color: purple;
+    display: flex;
+    color: white;
+    font-family: Poppins;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 100px;
+}
+
+.last-naruto h2 {
+    font-size: 40px;
+}
+
+.footer-div {
+    display: flex;
+    gap: 20px;
+    width: 70%;
+    margin: auto;
+
+}
+
+.footer-div li {
+    list-style-type: none;
+
+
+}
+
+.last {
+    text-align: center;
+    border-top: 1px white solid;
+    text-align: center;
+}
+
+.fot {
+    font-family: Poppins;
+    background-color: black;
+    color: white;
+}
+
+@media(max-width: 768px) {
+    .nav-links {
+        position: absolute;
+        top: 70px;
+        left: 0;
+
+        width: 100%;
+        padding: 25px 5%;
+
+        background: white;
+
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(-10px);
+
+        transition:
+            opacity 0.3s ease,
+            transform 0.3s ease,
+            visibility 0.3s ease;
+    }
+
+    /* SHOW MENU */
+    #menu-toggle:checked~.nav-links {
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0);
+    }
+
+    /* TURN HAMBURGER INTO X */
+    #menu-toggle:checked+.menu-icon span:nth-child(1) {
+        transform: translateY(10.5px) rotate(45deg);
+    }
+
+    #menu-toggle:checked+.menu-icon span:nth-child(2) {
+        opacity: 0;
+    }
+
+    #menu-toggle:checked+.menu-icon span:nth-child(3) {
+        transform: translateY(-10.5px) rotate(-45deg);
+    }
+
+    .brainy-hive {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .border {
+        width: 50%;
+    }
+
+    .real-article {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .wrap {
+        flex-direction: column;
+
+    }
+
+    .Public-speaking {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .ohno {
+        width: 10%;
+    }
+
+    .STEM {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .last-naruto {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .footer-div {
+        flex-direction: column;
+    }
+}
