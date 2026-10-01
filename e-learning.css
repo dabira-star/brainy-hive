@@ -77,6 +77,7 @@
     font-family: Poppins;
 
 }
+
 .subsitution {
     display: flex;
     gap: 30px;
@@ -85,7 +86,7 @@
 
 .enroll-mi-casa {
     padding: 30px;
-    
+
     background-color: orange;
     border: none;
     font-family: Poppins;
@@ -141,112 +142,82 @@ body {
 
 .spanner {
     color: orange;
-    font-size: 50px;
+    font-size: 70px;
 }
 
 .firefighters>div {
     width: 100%;
 }
 
-.high-schoolers {
+.subject {
+    margin: 150px 20px;
     display: flex;
-    width: 100%;
-    margin: auto;
-    margin-top: 120px;
-    gap: 0px;
-
+    gap: 10px;
+    align-items: center;
+    gap: 20px;
 }
 
-.not-img {
+.subject img {
     border-radius: 20px;
-    margin-right: 20px;
-    margin-left: 40px;
 }
 
-.text-div {
-    width: 100%;
-    margin-top: 50px;
-
-}
-
-.text-div h2 {
-    font-size: 40px;
-}
-
-.purple {
-    background-color: purple;
-    color: white;
-    padding: 30px;
-    text-align: center;
-    padding-bottom: 50px;
-}
-
-.card-div {
-    display: flex;
-    justify-content: center;
-    gap: 50px;
-
-}
-
-.card-div > div {
-    width: 20%;
-    background-color: white;
-    border-radius: 20px;
-
+.subject button {
     padding: 20px;
-    color: black;
+    border-radius: 10px;
+    background-color: orange;
+    border: none;
 }
 
-.fot {
-    font-family: Poppins;
+.learning {
     background-color: black;
     color: white;
-
-
-
+    padding: 10px;
 }
 
-.footer-div {
+.pathways {
+
+    margin: 150px 20px;
     display: flex;
+    gap: 10px;
+    align-items: center;
     gap: 20px;
-    width: 70%;
-    margin: auto;
-
 }
 
-.footer-div li {
-    list-style-type: none;
 
-
-}
-
-.card-div img {
+.pathways img {
     border-radius: 20px;
 }
 
-.lightgrey {
-    background-color: lightgrey;
-    padding: 30px;
-    text-align: center;
-    padding-bottom: 50px;
-}
-
-.nothing {
-
-    padding: 30px;
-    text-align: center;
-    padding-bottom: 50px;  
-}
-
-.card-div > div {
-    width: 20%;
-    background-color: lightgrey;
-    border-radius: 20px;
-
+.pathways button {
     padding: 20px;
-    color: black;
+    border-radius: 10px;
+    background-color: orange;
+    border: none;
 }
 
-.card-div img {
+.learnings {
+
+    margin: 150px 20px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.learning img {
     border-radius: 20px;
+}
+
+.learning button {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: orange;
+    border: none;
+}
+
+.learning {
+    background-color: lightgrey;
+    color: white;
+    padding: 10px;
 }
