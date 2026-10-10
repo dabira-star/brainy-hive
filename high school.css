@@ -77,6 +77,7 @@
     font-family: Poppins;
 
 }
+
 .subsitution {
     display: flex;
     gap: 30px;
@@ -85,7 +86,7 @@
 
 .enroll-mi-casa {
     padding: 30px;
-    
+
     background-color: orange;
     border: none;
     font-family: Poppins;
@@ -188,7 +189,7 @@ body {
 
 }
 
-.card-div > div {
+.card-div>div {
     width: 20%;
     background-color: white;
     border-radius: 20px;
@@ -235,10 +236,10 @@ body {
 
     padding: 30px;
     text-align: center;
-    padding-bottom: 50px;  
+    padding-bottom: 50px;
 }
 
-.card-div > div {
+.card-div>div {
     width: 20%;
     background-color: lightgrey;
     border-radius: 20px;
@@ -249,4 +250,165 @@ body {
 
 .card-div img {
     border-radius: 20px;
+}
+
+.david {
+    display: flex;
+    align-items: center;
+    font-family: Poppins;
+    gap: 20px;
+    height: 500px;
+    background-color: lightgrey;
+    position: absolute;
+
+}
+
+.david div {
+    width: 50%;
+}
+
+.letsgo {
+   
+     /* bottom: 50px; */
+    /* width: 100%;  */
+    position: relative;
+    padding:20px;
+
+
+
+}
+
+.father-img {
+    height: auto;
+    /* overflow: hidden; */
+     
+     padding: 30px;
+
+}
+
+
+@media(max-width: 768px) {
+    .navbar {
+        background-color: white;
+
+    }
+
+    .inmg {
+        width: 0%;
+    }
+
+    .menu-icon {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: auto;
+    }
+
+    .footer-div {
+        flex-direction: column;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .last {
+        text-align: center;
+    }
+
+    .nav-links {
+        position: absolute;
+        top: 70px;
+        left: 0;
+
+        width: 100%;
+        padding: 25px 5%;
+
+        background: white;
+
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(-10px);
+
+        transition:
+            opacity 0.3s ease,
+            transform 0.3s ease,
+            visibility 0.3s ease;
+    }
+
+    /* SHOW MENU */
+    #menu-toggle:checked~.nav-links {
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0);
+    }
+
+    /* TURN HAMBURGER INTO X */
+    #menu-toggle:checked+.menu-icon span:nth-child(1) {
+        transform: translateY(10.5px) rotate(45deg);
+    }
+
+    #menu-toggle:checked+.menu-icon span:nth-child(2) {
+        opacity: 0;
+    }
+
+    #menu-toggle:checked+.menu-icon span:nth-child(3) {
+        transform: translateY(-10.5px) rotate(-45deg);
+    }
+
+    header {
+        display: none;
+    }
+
+    .firefighters {
+        flex-direction: column;
+    }
+
+    .coventry {
+        flex-direction: column-reverse;
+
+    }
+
+    .high-schoolers {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .card-div {
+        flex-direction: column;
+    }
+
+    .card-div>div {
+        width: 100%;
+        justify-content: center;
+    }
+
+
+}
+
+.fixed-button {
+    padding: 20px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 1000px !important;
+    font-family: Poppins;
+    cursor: pointer;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+
+.ifneeded {
+    background-color: lightgrey;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: 700;
 }

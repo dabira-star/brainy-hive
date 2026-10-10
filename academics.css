@@ -572,4 +572,66 @@ body {
     .footer-div {
         flex-direction: column;
     }
+
+    .fixed-button {
+        background-color: red;
+    }
+}
+
+.subsitution  {
+    display: flex;
+    gap: 30px;
+    color: white;
+    font-family: Poppins;
+}
+
+.subsitution a {
+    color: white;
+}
+
+.enroll-mi-casa {
+    padding: 30px;
+    margin-right: 50px;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: orange;
+    border: none;
+    font-family: Poppins;
+
+}
+.nav-links {
+    display: flex;
+    background-color: purple;
+    justify-content: space-between;
+    color: white;
+    
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+}
+
+
+.fixed-button {
+    /* padding: 20px; */
+    border: none;
+    border-radius: 20px;
+ 
+ /* margin-left: 20px !important; */
+    font-family: Poppins;
+    cursor: pointer;
+    position: fixed;
+    bottom: 50px;
+    right: 1px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+
+.ifneeded {
+    background-color: lightgrey;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: 700;
 }

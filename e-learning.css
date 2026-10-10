@@ -221,3 +221,124 @@ body {
     color: white;
     padding: 10px;
 }
+
+@media(max-width: 768px) {
+    .navbar {
+        background-color: white;
+
+    }
+
+    .inmg {
+        width: 0%;
+    }
+
+    .menu-icon {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: auto;
+    }
+
+    .footer-div {
+        flex-direction: column;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .last {
+        text-align: center;
+    }
+
+    .nav-links {
+        position: absolute;
+        top: 70px;
+        left: 0;
+
+        width: 100%;
+        padding: 25px 5%;
+
+        background: white;
+
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(-10px);
+
+        transition:
+            opacity 0.3s ease,
+            transform 0.3s ease,
+            visibility 0.3s ease;
+    }
+
+    /* SHOW MENU */
+    #menu-toggle:checked~.nav-links {
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0);
+    }
+
+    /* TURN HAMBURGER INTO X */
+    #menu-toggle:checked+.menu-icon span:nth-child(1) {
+        transform: translateY(10.5px) rotate(45deg);
+    }
+
+    #menu-toggle:checked+.menu-icon span:nth-child(2) {
+        opacity: 0;
+    }
+
+    #menu-toggle:checked+.menu-icon span:nth-child(3) {
+        transform: translateY(-10.5px) rotate(-45deg);
+    }
+
+    header {
+        display: none;
+    }
+
+    .firefighters {
+        flex-direction: column;
+    }
+
+    .coventry {
+        flex-direction: column-reverse;
+
+    }
+
+    .subject {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .pathways {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+}
+
+.fixed-button {
+    padding: 20px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 1000px !important;
+    font-family: Poppins;
+    cursor: pointer;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+
+.ifneeded {
+    background-color: lightgrey;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: 700;
+}
