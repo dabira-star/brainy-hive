@@ -134,6 +134,16 @@ body {
     gap: 20px;
 }
 
+.main-oga h2::before {
+    content: "";
+    width: 150px;
+    margin-bottom: 20px;
+    display: block;
+    height: 5px;
+    background-color: orange;
+}
+
+
 .imgs {
     border-radius: 200px;
     object-fit: cover;

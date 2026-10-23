@@ -204,6 +204,16 @@
 }
 
 
+.main-oga h2::before {
+    content: "";
+    width: 50px;
+    margin-bottom: 20px;
+    display: block;
+    height: 10px;
+    background-color: orange;
+}
+
+
 
 .STEM {
     display: flex;

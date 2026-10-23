@@ -84,6 +84,16 @@
     font-family: Poppins;
 }
 
+
+.main-oga h2::before {
+    content: "";
+    width: 150px;
+    margin-bottom: 20px;
+    display: block;
+    height: 5px;
+    background-color: orange;
+}
+
 .enroll-mi-casa {
     padding: 30px;
 
